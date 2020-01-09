@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b5914c-fc05-43a7-aae8-a2ecf17542bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/CycleGanExample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WARbkDLgoUPacVSYDjmqjhpRQl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,9 +38,10 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -72,7 +75,7 @@
       <updated>1578590485724</updated>
       <workItem from="1578590498059" duration="795000" />
       <workItem from="1578591310174" duration="1242000" />
-      <workItem from="1578592569792" duration="2529000" />
+      <workItem from="1578592569792" duration="3736000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578592817314</created>
@@ -116,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578595525750</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Readme modification">
+      <created>1578595808224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578595808224</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,9 +144,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initialisation" />
     <MESSAGE value="Initialisation 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialisation 2" />
+    <MESSAGE value="Readme modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme modification" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="117" key="#Deployment" timestamp="1578592979673">
@@ -147,22 +159,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1578593492948" />
-    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2" timestamp="1578595525589">
+    <state x="437" y="23" width="566" height="797" key="#models/Dockerfile" timestamp="1578601230183">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578595525589" />
+    <state x="437" y="23" width="566" height="797" key="#models/Dockerfile/0.0.1440.900@0.0.1440.900" timestamp="1578601230183" />
+    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2" timestamp="1578595808053">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578595808053" />
     <state x="506" y="168" key="RollbackChangesDialog" timestamp="1578595318777">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="506" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578595318777" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1578595114476">
+    <state x="229" y="89" key="SettingsEditor" timestamp="1578601523840">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578595114476" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1578595403307">
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578601523840" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1578595810812">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578595403307" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578595810812" />
     <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578593539207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
