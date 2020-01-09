@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/imgs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/models" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/inspectionProfiles" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
