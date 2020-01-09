@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b5914c-fc05-43a7-aae8-a2ecf17542bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +44,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/imgs" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/models" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -75,7 +74,7 @@
       <updated>1578590485724</updated>
       <workItem from="1578590498059" duration="795000" />
       <workItem from="1578591310174" duration="1242000" />
-      <workItem from="1578592569792" duration="3736000" />
+      <workItem from="1578592569792" duration="4788000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578592817314</created>
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578595808224</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Dockerfile">
+      <created>1578601641901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578601641901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +154,8 @@
     <MESSAGE value="Initialisation" />
     <MESSAGE value="Initialisation 2" />
     <MESSAGE value="Readme modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme modification" />
+    <MESSAGE value="Add Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Dockerfile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="117" key="#Deployment" timestamp="1578592979673">
@@ -163,10 +170,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="437" y="23" width="566" height="797" key="#models/Dockerfile/0.0.1440.900@0.0.1440.900" timestamp="1578601230183" />
-    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2" timestamp="1578595808053">
+    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2" timestamp="1578601641647">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578595808053" />
+    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578601641647" />
     <state x="506" y="168" key="RollbackChangesDialog" timestamp="1578595318777">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
