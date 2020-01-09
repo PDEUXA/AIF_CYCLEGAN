@@ -12,7 +12,7 @@ Le premier réseau est le générateur, il génère un échantillon (ex. du brui
 
 
 ![Princie RAG](imgs/RAGprincipe.png "Rag Principe") <!-- .element height="50%" width="50%" -->
-<img src="imgs/RAGprincipe.png" height="42" width="42"> 
+<img src="imgs/RAGprincipe.png" height="200" width="500"> 
 
 ## Exemple
 Le CycleGan est une technique de GAN qui permet d'entrainer
