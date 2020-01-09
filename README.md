@@ -11,16 +11,17 @@ Le premier réseau est le générateur, il génère un échantillon (ex. du brui
  bien s'il est le résultat du générateur. 
 
 
-![Princie RAG](imgs/RAGprincipe.png "Rag Principe") <!-- .element height="50%" width="50%" -->
-<img src="imgs/RAGprincipe.png" height="200" width="500"> 
+![Principe RAG](imgs/RAGprincipe.png "Rag Principe") <!-- .element height="50%" width="50%" -->
 
-## Exemple
+## Cycle Gan
 Le CycleGan est une technique de GAN qui permet d'entrainer
 des modèles de génération d'image, de type image-to-image, sans exemples apairés.
 
 Le CycleGan permet de passer d'une image à une autre via deux générateurs
 différents.
  
+## Example
+![Example cRAG](imgs/CycleGanExample.jpg "Example cRAG")
 
 
 ## Getting Started

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b5914c-fc05-43a7-aae8-a2ecf17542bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/AIF_CycleGan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AIF_CycleGan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/CycleGanExample.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <updated>1578590485724</updated>
       <workItem from="1578590498059" duration="795000" />
       <workItem from="1578591310174" duration="1242000" />
-      <workItem from="1578592569792" duration="2140000" />
+      <workItem from="1578592569792" duration="2529000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578592817314</created>
@@ -101,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578595178247</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initialisation 2">
+      <created>1578595393404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578595393404</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initialisation 2">
+      <created>1578595525750</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578595525750</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,10 +147,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1578593492948" />
-    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2" timestamp="1578595409444">
+    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2" timestamp="1578595525589">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578595409444" />
+    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578595525589" />
     <state x="506" y="168" key="RollbackChangesDialog" timestamp="1578595318777">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
