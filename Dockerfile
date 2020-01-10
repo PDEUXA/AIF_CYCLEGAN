@@ -1,7 +1,11 @@
-FROM python:3.7-alpine
-RUN mkdir /CycleGan
-WORKDIR /CycleGan
-COPY ./AIF_CycleGan /CycleGan/AIF_CycleGan
-RUN pip install --upgrade pip
-RUN pip install -r /CycleGan/requirements.txt
+FROM debian:buster-slim
+RUN apt-get update
+RUN apt-get install -y python3-pip
+RUN pip3 install --upgrade pip
+COPY . /AIF_CycleGan
+WORKDIR /AIF_CycleGan
+RUN pip install -r requirements.txt
+
+
+
 
