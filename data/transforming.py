@@ -8,11 +8,7 @@ def normalize(image):
     return image
 
 
-def preprocess_image_train(image,label):
+def preprocess_image(image,label):
     image = normalize(image)
     return image
 
-
-def preprocess_image_test(image,label):
-    image = normalize(image)
-    return image

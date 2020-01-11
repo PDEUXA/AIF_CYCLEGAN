@@ -7,7 +7,7 @@ from data.displaying import generate_and_save_images
 from models.model_discriminator import *
 from models.model_generator import *
 from train import train_step
-from data.transforming import preprocess_image_train, preprocess_image_test
+from data.transforming import preprocess_image
 
 # Parameters
 parser = argparse.ArgumentParser()
@@ -32,10 +32,10 @@ train_a, train_b, test_a, test_b = load_data(name='ukiyoe2photo')
 
 
 # Transform data
-train_a = train_a.map(preprocess_image_train, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(1)
-train_b = train_b.map(preprocess_image_train, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(1)
-test_a = test_a.map(preprocess_image_test, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(1)
-test_b = test_b.map(preprocess_image_test, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(1)
+train_a = train_a.map(preprocess_image, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(1)
+train_b = train_b.map(preprocess_image, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(1)
+test_a = test_a.map(preprocess_image, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(1)
+test_b = test_b.map(preprocess_image, num_parallel_calls=AUTOTUNE).cache().shuffle(BUFFER_SIZE).batch(1)
 
 # Instanciate Networks
 gen_a = generator((256, 256, 3))
