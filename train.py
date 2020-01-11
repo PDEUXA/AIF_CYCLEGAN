@@ -3,13 +3,7 @@ import tensorflow as tf
 
 
 @tf.function
-def train_step(real_a, real_b, gen_a, gen_b, disc_a, disc_b):
-
-    # Set optimizer for generators and discriminators
-    generator_a_optimizer = tf.keras.optimizers.Adam(2e-4, beta_1=0.5)
-    generator_b_optimizer = tf.keras.optimizers.Adam(2e-4, beta_1=0.5)
-    discriminator_a_optimizer = tf.keras.optimizers.Adam(2e-4, beta_1=0.5)
-    discriminator_b_optimizer = tf.keras.optimizers.Adam(2e-4, beta_1=0.5)
+def train_step(real_a, real_b, gen_a, gen_b, disc_a, disc_b, gen_a_opt, gen_b_opt, disc_a_opt, disc_b_opt):
 
     # persistent is set to True because the tape is used more than
     # once to calculate the gradients.
@@ -51,7 +45,7 @@ def train_step(real_a, real_b, gen_a, gen_b, disc_a, disc_b):
     discriminator_b_gradients = tape.gradient(disc_b_loss, disc_b.trainable_variables)
 
     # Apply the gradients to the optimizer
-    generator_b_optimizer.apply_gradients(zip(generator_b_gradients, gen_b.trainable_variables))
-    generator_a_optimizer.apply_gradients(zip(generator_b_gradients, gen_b.trainable_variables))
-    discriminator_a_optimizer.apply_gradients(zip(discriminator_a_gradients, disc_a.trainable_variables))
-    discriminator_b_optimizer.apply_gradients(zip(discriminator_a_gradients, disc_a.trainable_variables))
+    gen_b_opt.apply_gradients(zip(generator_b_gradients, gen_b.trainable_variables))
+    gen_a_opt.apply_gradients(zip(generator_a_gradients, gen_a.trainable_variables))
+    disc_a_opt.apply_gradients(zip(discriminator_a_gradients, disc_a.trainable_variables))
+    disc_b_opt.apply_gradients(zip(discriminator_b_gradients, disc_b.trainable_variables))

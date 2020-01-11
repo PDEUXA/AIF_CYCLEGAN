@@ -1,31 +1,46 @@
 import tensorflow as tf
 import tensorflow.keras.models as km
 import tensorflow.keras.layers as kl
-import tensorflow.keras.optimizers as ko
+import tensorflow_addons as tfa
 
 # Define Discriminator architecture
 
 
-def discriminator(image_shape):
+def normes(norm):
+    if norm == 'none':
+        return lambda: lambda x: x
+    elif norm == 'batch_norm':
+        return kl.BatchNormalization
+    elif norm == 'instance_norm':
+        return tfa.layers.InstanceNormalization
+    elif norm == 'layer_norm':
+        return kl.LayerNormalization
 
-    # weight initialization
-    init = tf.keras.initializers.RandomNormal(stddev=0.02)
-    # source image input
-    disc = km.Sequential()
-    disc.add(kl.Conv2D(64, (4, 4), strides=(2, 2), padding='same', kernel_initializer=init))
-    disc.add(kl.LeakyReLU(alpha=0.2))
-    disc.add(kl.Conv2D(128, (4, 4), strides=(2, 2), padding='same', kernel_initializer=init))
-    disc.add(kl.LeakyReLU(alpha=0.2))
-    # C256
-    disc.add(kl.Conv2D(256, (4, 4), strides=(2, 2), padding='same', kernel_initializer=init))
-    disc.add(kl.LeakyReLU(alpha=0.2))
-    # C512
-    disc.add(kl.Conv2D(512, (4, 4), strides=(2, 2), padding='same', kernel_initializer=init))
-    disc.add(kl.LeakyReLU(alpha=0.2))
-    disc.add(kl.Conv2D(512, (4, 4), padding='same', kernel_initializer=init))
-    disc.add(kl.LeakyReLU(alpha=0.2))
 
-    # patch output
-    disc.add(kl.Conv2D(1, (4, 4), padding='same', kernel_initializer=init))
-    disc.compile(loss='mse', optimizer=ko.Adam(lr=0.0002, beta_1=0.5), loss_weights=[0.5])
-    return disc
+def discriminator(input_shape=(256, 256, 3), dim=64, n_downsamplings=3, norm='instance_norm'):
+    dim_ = dim
+    norme = normes(norm)
+
+    # 0
+    h = inputs = tf.keras.Input(shape=input_shape)
+
+    # 1
+    h = kl.Conv2D(dim, 4, strides=2, padding='same')(h)
+    h = tf.nn.leaky_relu(h, alpha=0.2)
+
+    for _ in range(n_downsamplings - 1):
+        dim = min(dim * 2, dim_ * 8)
+        h = kl.Conv2D(dim, 4, strides=2, padding='same', use_bias=False)(h)
+        h = norme()(h)
+        h = tf.nn.leaky_relu(h, alpha=0.2)
+
+    # 2
+    dim = min(dim * 2, dim_ * 8)
+    h = kl.Conv2D(dim, 4, strides=1, padding='same', use_bias=False)(h)
+    h = norme()(h)
+    h = tf.nn.leaky_relu(h, alpha=0.2)
+
+    # 3
+    h = kl.Conv2D(1, 4, strides=1, padding='same')(h)
+
+    return km.Model(inputs=inputs, outputs=h)
