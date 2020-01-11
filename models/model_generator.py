@@ -1,7 +1,7 @@
 import tensorflow as tf
 import tensorflow.keras.models as km
 import tensorflow.keras.layers as kl
-import tensorflow_addons as tfa
+from models.InstanceNormalize import *
 
 
 # Define Generator architecture
@@ -11,7 +11,7 @@ def normes(norm):
     elif norm == 'batch_norm':
         return kl.BatchNormalization
     elif norm == 'instance_norm':
-        return tfa.layers.InstanceNormalization
+        return InstanceNormalization
     elif norm == 'layer_norm':
         return kl.LayerNormalization
 

@@ -13,7 +13,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea/inspectionProfiles" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (AIF_CycleGan)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

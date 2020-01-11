@@ -10,7 +10,7 @@ def generate_and_save_images(model, epoch, test_input,moldename):
     plt.imshow(predictions[0])
     plt.axis('off')
 
-    plt.savefig('image_at_epoch_{:04d}_{}.png'.format(epoch,moldename))
+    plt.savefig('./output/image_at_epoch_{:04d}_{}.png'.format(epoch,moldename))
     plt.show()
 
 
