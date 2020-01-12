@@ -92,6 +92,7 @@ Le fichier main.py va générér les différents réseaux, et lancer la phase d'
 <li>requirements.txt: Ensemble des prérequies du projet</li>
 <li>train.py: Fonction d'entrainement</li>
 </ul>
+
 ## Quelques résultats
 
 ### Arrière plan flou <-> Arrière plan net (100 epochs)
