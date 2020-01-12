@@ -83,7 +83,15 @@ Les arguments suivants peuvent être ajoutés.
 '--identity_loss_weight', type=float, default=0
 ```
 Le fichier main.py va générér les différents réseaux, et lancer la phase d'entrainement, des checkpoints sont créés toutes les 5 epochs afin de pouvoir fractionner la phase d'entrainement.
-
+<ul>
+<li>checkpoints: Répétoire de sauvegarde des checkpoints d'entrainement</li>
+<li>data: Répétoire regroupant les fonction de traitement des donénes (chargement, transformation, affichage)</li>
+<li>model: Répétoire regroupant les fonctions relatifs aux modèles</li>
+<li>Dockerfile: Création du docker</li>
+<li>mise_a_jour.sh: Script d'installation des requirements.txt</li>
+<li>requirements.txt: Ensemble des prérequies du projet</li>
+<li>train.py: Fonction d'entrainement</li>
+</ul>
 ## Quelques résultats
 
 ### Arrière plan flou <-> Arrière plan net (100 epochs)
@@ -94,7 +102,7 @@ Le fichier main.py va générér les différents réseaux, et lancer la phase d'
 
 ### Style Ukiyo-e  <-> Photo (41 epochs)
 <img src="imgs/output/Photo2style/dcgan.gif " width="200" height="200" />
-<img src="imgs/output/blur/dcganb.gif " width="200" height="200" />
+<img src="imgs/output/Photo2style/dcganb.gif " width="200" height="200" />
 
 
 
