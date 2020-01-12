@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59b5914c-fc05-43a7-aae8-a2ecf17542bd" name="Default Changelist" comment="Update of README.md">
-      <change afterPath="$PROJECT_DIR$/imgs/AIF GAN.pdf" afterDir="false" />
+    <list default="true" id="59b5914c-fc05-43a7-aae8-a2ecf17542bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/AIF GAN.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/AIF GAN.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578771203324</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update of README.md">
+      <created>1578835384171</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578835384171</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update of README.md">
+      <created>1578835434411</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578835434411</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +230,8 @@
     <MESSAGE value="Update requirements.txt" />
     <MESSAGE value="Add Notebook.ipynb" />
     <MESSAGE value="Removing tensorflow addons depencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing tensorflow addons depencies" />
+    <MESSAGE value="Update of README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update of README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="117" key="#Deployment" timestamp="1578592979673">
@@ -248,10 +262,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="437" y="23" width="566" height="797" key="#models/Dockerfile/0.0.1440.900@0.0.1440.900" timestamp="1578601230183" />
-    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2" timestamp="1578771203108">
+    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2" timestamp="1578835434265">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578771203108" />
+    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578835434265" />
     <state x="506" y="168" key="RollbackChangesDialog" timestamp="1578595318777">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -264,10 +278,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1578740397045" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1578771212950">
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1578835436290">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578771212950" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578835436290" />
     <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578593539207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
