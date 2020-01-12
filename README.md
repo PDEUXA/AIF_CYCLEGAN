@@ -1,4 +1,4 @@
-#Réseaux adverses génératifs
+# Réseaux adverses génératifs
 
 ![RAG](imgs/RAG.png?raw=true "RAG")
 
@@ -26,27 +26,32 @@ différents.
 
 ## Comment débuter ?
 
-### Prérequis
+### -- Prérequis --
 
 ```
 Installer les prérequis issu du fichier requirements.txt
 Installer tensorflow > 2.0.0
 ```
 
-### Installation
-
-#### Docker
-```
+### -- Installation --
+<ul>
+<p>
+Docker
+</p>
+</ul>
 Vous pouvez directement créer un environnement stable via docker
-```
-
 Depuis le répertoire principal, executer la commande
 
 ```
 docker build -t cyclegan .
 docker run -it --name cycleganC cyclegan
 ```
-#### Déploiement cloud
+<hr>
+<ul>
+<p>
+Déploiement cloud
+</p>
+</ul>
 
 Vous pouvez suivre cette procedure pour déployer une machine virtuel sur Google Cloud
 ```
@@ -64,9 +69,36 @@ jupyter notebook --no-browser --port=8080
 Depuis l'ordinateur local
 ssh -N -L 8080:localhost:8080 <IDuser>@<ipVM>
 ```
-## Running the tests
 
-Explain how to run the automated tests for this system
+## Pour faire tourner le cycleGan
+```
+python3 main.py
+```
+Les arguments suivants peuvent être ajoutés.
+```
+'--dataset', default='ukiyoe2photo'
+'--batch_size', type=int, default=1
+'--epochs', type=int, default=50
+'--cycle_loss_weight', type=float, default=10.0
+'--identity_loss_weight', type=float, default=0
+```
+Le fichier main.py va générér les différents réseaux, et lancer la phase d'entrainement, des checkpoints sont créés toutes les 5 epochs afin de pouvoir fractionner la phase d'entrainement.
+
+## Quelques résultats
+
+### Arrière plan flou <-> Arrière plan net (100 epochs)
+<img src="imgs/output/blur/cgan.gif " width="200" height="200" />
+<img src="imgs/output/blur/cganinv.gif " width="200" height="200" />
+
+<hr>
+
+### Style Ukiyo-e  <-> Photo (41 epochs)
+<img src="imgs/output/Photo2style/dcgan.gif " width="200" height="200" />
+<img src="imgs/output/blur/dcganb.gif " width="200" height="200" />
+
+
+
+
 
 ## License
 

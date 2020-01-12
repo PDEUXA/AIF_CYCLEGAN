@@ -5,10 +5,14 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/.idea/inspectionProfiles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/imgs/Outputs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/imgs/output/blur" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/imgs/output/Photo2style" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/checkpoints" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/imgs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/imgs/output" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/models" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/checkpoints" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/inspectionProfiles" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
