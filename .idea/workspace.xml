@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b5914c-fc05-43a7-aae8-a2ecf17542bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,7 @@
       <workItem from="1578748155746" duration="7133000" />
       <workItem from="1578768724139" duration="2801000" />
       <workItem from="1578818583584" duration="2950000" />
-      <workItem from="1580911750238" duration="1798000" />
+      <workItem from="1580911750238" duration="2016000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578592817314</created>
@@ -205,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578835434411</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update of README.md">
+      <created>1580913787391</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580913787391</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,10 +287,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1578740397045" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1578846749364">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="302" y="169" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1580913795680">
+      <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578846749364" />
+    <state x="302" y="169" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1580913795680" />
     <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578593539207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

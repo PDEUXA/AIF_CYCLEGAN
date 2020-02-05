@@ -56,7 +56,8 @@ Déploiement cloud
 Vous pouvez suivre cette procedure pour déployer une machine virtuel sur Google Cloud
 ```
 Créer une instance 'Deep Learning VM '
-8vCPU, 30 Gb RAM, GPU NVIDIA P100.
+8vCPU, 30 Gb RAM, GPU NVIDIA P100(ou autre), avec le framework TensorFlow Enterprise 2.1 (CUDA 10.1).
+Cocher la case 'Install NVIDIA GPU driver automatically on first startup?'
 Copier votre clef publique dans la VM, afin de pouvoir y acceder en SSH.
 Copier le contenu du projet "AIF_CycleGan" via un scp -r ou via un gitclone.
 Mettre à jour les prérequis avec mise_a_jour.sh (optionnel sur une instance Deep Learning VM).
