@@ -58,9 +58,9 @@ Vous pouvez suivre cette procedure pour déployer une machine virtuel sur Google
 Créer une instance 'Deep Learning VM '
 8vCPU, 30 Gb RAM, GPU NVIDIA P100.
 Copier votre clef publique dans la VM, afin de pouvoir y acceder en SSH.
-Copier le contenu du projet "AIF_CycleGan" via un scp -r
-Mettre à jour les prérequis avec mise_a_jour.sh
-Lancer main.py ou un tunneling SSH pour utiliser le notebook.
+Copier le contenu du projet "AIF_CycleGan" via un scp -r ou via un gitclone.
+Mettre à jour les prérequis avec mise_a_jour.sh (optionnel sur une instance Deep Learning VM).
+Lancer python3 main.py ou un tunneling SSH pour utiliser le notebook.
 ```
 Tunneling SSH
 ```

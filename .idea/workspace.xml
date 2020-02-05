@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b5914c-fc05-43a7-aae8-a2ecf17542bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/AIF GAN.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/AIF GAN.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +98,7 @@
       <workItem from="1578748155746" duration="7133000" />
       <workItem from="1578768724139" duration="2801000" />
       <workItem from="1578818583584" duration="2950000" />
+      <workItem from="1580911750238" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578592817314</created>
@@ -262,10 +266,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="437" y="23" width="566" height="797" key="#models/Dockerfile/0.0.1440.900@0.0.1440.900" timestamp="1578601230183" />
-    <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2" timestamp="1578846741800">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="313" y="71" width="1042" height="795" key="CommitChangelistDialog2" timestamp="1580913786577">
+      <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="331" y="54" width="1042" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578846741800" />
+    <state x="313" y="71" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1580913786577" />
     <state x="506" y="168" key="RollbackChangesDialog" timestamp="1578595318777">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
